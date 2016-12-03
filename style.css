@@ -1,0 +1,44 @@
+@import url(//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css);
+
+header {
+    padding: 1em;
+    color: white;
+    font: georgia;
+    background-color: #081d58;
+    clear: left;
+    text-align: center;
+}
+path {
+  fill: #000;
+  fill-opacity: .2;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+path:hover {
+  fill: blue;
+  fill-opacity: .7;
+}
+html, body { 
+    margin:0; 
+    padding:0; 
+}
+#map {
+  width: 960px;
+  height: 500px;
+  margin: auto;
+}
+svg {
+     position: relative;
+}
+div.tooltip {   
+    position: absolute;         
+    text-align: center;                            
+    padding: 5px;               
+    font: 18px georgia;      
+    background: white;       
+    border-radius: 1px;         
+    pointer-events: none;
+    opacity: 0;
+    border:solid black 1px;
+}
